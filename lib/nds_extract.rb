@@ -29,7 +29,10 @@ def directors_totals(nds)
     end 
     a = nds[row_index][:name]
     result[a] = total
+<<<<<<< HEAD
     row_index += 1
+=======
+>>>>>>> 34c1207c1e33403380ba4572cfa4388174f6d972
   end 
   return result
 end
